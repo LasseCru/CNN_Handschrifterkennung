@@ -7,7 +7,7 @@ A convolutional neural network trained on MNIST to classify handwritten digits (
 - **Data**: MNIST, 28x28 grayscale images, extended with a color-inverted copy for robustness
 - **Model**: Small CNN (2x Conv2D + MaxPooling + Dense) built with TensorFlow/Keras
 - **Result**: ~98.4% test accuracy
-- **Extra check**: model is also run on a handful of digits I photographed and cropped myself (`MeineTestBilder28x28/`), to see how it holds up on real, non-MNIST handwriting
+- **Extra check**: model is also run on a handful of digits I painted myself (`MeineTestBilder28x28/`), to see how it holds up on real, non-MNIST handwriting
 
 ## Project structure
 
